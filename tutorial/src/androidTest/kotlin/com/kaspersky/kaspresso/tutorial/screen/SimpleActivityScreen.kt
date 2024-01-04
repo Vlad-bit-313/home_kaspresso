@@ -15,4 +15,5 @@ object SimpleActivityScreen : KScreen<SimpleActivityScreen>() {
     val simpleTitle = KTextView { withId(R.id.simple_title) }
     val inputText = KEditText { withId(R.id.input_text) }
     val changeTitleButton = KButton { withId(R.id.change_title_btn) }
+
 }
